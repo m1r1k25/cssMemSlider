@@ -130,8 +130,8 @@ label, a{ /*при наведении на стрелки или переклю�
    }
 
    #active label{ 
-      width: 15px;
-      height: 15px;
+      width: 13px;
+      height: 13px;
    }
 
    #switch1:checked ~ #active label:nth-child(1),
@@ -140,8 +140,8 @@ label, a{ /*при наведении на стрелки или переклю�
    #switch4:checked ~ #active label:nth-child(4){
       background: black;
       border: 2px solid #fff;
-      width: 11px;
-      height: 11px;
+      width: 9px;
+      height: 9px;
    }
    #slides p {
       margin-top: 20%;
