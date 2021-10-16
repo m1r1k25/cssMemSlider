@@ -136,7 +136,14 @@ label, a{ /*при наведении на стрелки или переклю�
       width: 11px;
       height: 11px;
    }
-         
+   #slides p {
+      margin-top: 9%;
+   }
+
+   #active {
+      text-align: center;
+   }
+
 
 
 
