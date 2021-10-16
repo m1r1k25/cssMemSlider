@@ -126,7 +126,9 @@ label, a{ /*при наведении на стрелки или переклю�
    #slides p { 
       width: 100%;
       text-align: center;
-      font-size: 1em;
+      font-size: 0.8em;
+      margin-top: 20%;
+      text-align: left;
    }
 
    #active label{ 
@@ -142,9 +144,6 @@ label, a{ /*при наведении на стрелки или переклю�
       border: 2px solid #fff;
       width: 9px;
       height: 9px;
-   }
-   #slides p {
-      margin-top: 20%;
    }
 
    #active {
