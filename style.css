@@ -123,13 +123,13 @@ label, a{ /*при наведении на стрелки или переклю�
 
 @media (max-width: 320px) {
    
-   #slides p { 
+  #slides p { 
       width: 100%;
       text-align: center;
       font-size: 0.8em;
       margin-top: 20%;
       text-align: left;
-   }
+  }
 
    #active label{ 
       width: 13px;
@@ -140,8 +140,8 @@ label, a{ /*при наведении на стрелки или переклю�
    #switch2:checked ~ #active label:nth-child(2),
    #switch3:checked ~ #active label:nth-child(3),
    #switch4:checked ~ #active label:nth-child(4){
-      background: black;
       border: 2px solid #fff;
+      background: black;
       width: 9px;
       height: 9px;
    }
